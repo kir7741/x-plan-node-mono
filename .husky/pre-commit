@@ -1,0 +1,3 @@
+echo "run husky precommit"
+npx --no-install lint-staged
+
