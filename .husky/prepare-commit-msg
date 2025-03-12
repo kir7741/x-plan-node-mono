@@ -1,0 +1,3 @@
+echo "run husky prepare-commit-msg"
+exec < /dev/tty && cz --hook || true
+
