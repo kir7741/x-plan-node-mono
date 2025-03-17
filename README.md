@@ -1,11 +1,5 @@
 # XPlanNodeMono
 
-<!-- 問： fix, feat 可以選  -->
-<!-- 問：影響得檔案 -->
-<!-- 問：短描述 -->
-<!-- 問：長描述 -->
-
-
 <a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
 
 ✨ Your new, shiny [Nx workspace](https://nx.dev) is ready ✨.

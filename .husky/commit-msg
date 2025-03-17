@@ -1,0 +1,2 @@
+echo "cum!"
+npx --no-install commitlint --edit "$1"
