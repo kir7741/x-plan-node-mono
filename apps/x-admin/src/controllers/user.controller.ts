@@ -2,7 +2,8 @@ import * as userService from "../services/user.service";
 
 const getUserById = async (req, res) => {
   try {
-    const users = await userService.getUserById();
+    console.log(req);
+    const users = await userService.getUserById(req.params.id);
     res.json(users);
   } catch (error) {
     res.status(500).json({ message: "取得使用者失敗", error });

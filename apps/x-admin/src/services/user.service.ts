@@ -1,7 +1,9 @@
 import UseModel from "../models/user.model";
+import pool from "../db";
 
-const getUserById = async () => {
-  return await new UseModel(); // 從資料庫取得所有使用者
+const getUserById = async (userId: string) => {
+  console.log(userId);
+  return (await pool.query("SELECT * FROM users WHERE id = $1", [userId])).rows;
 };
 
 const createUser = async userData => {
